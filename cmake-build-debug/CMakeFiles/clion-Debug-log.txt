@@ -1,0 +1,124 @@
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/241/bin/ninja/linux/x64/ninja -G Ninja -S /home/yzx/CLionProjects/Stereo_Matching/Optical_Huber_L2 -B /home/yzx/CLionProjects/Stereo_Matching/Optical_Huber_L2/cmake-build-debug
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local (found version "3.4.10") 
+-- Configuring done
+CMake Warning at src/CMakeLists.txt:1 (add_library):
+  Cannot generate a safe runtime search path for target Optical because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:1 (add_executable):
+  Cannot generate a safe runtime search path for target Story because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:4 (add_executable):
+  Cannot generate a safe runtime search path for target DeformableIGS because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:7 (add_executable):
+  Cannot generate a safe runtime search path for target AlgorithmDriver
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:10 (add_executable):
+  Cannot generate a safe runtime search path for target StageOne because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:13 (add_executable):
+  Cannot generate a safe runtime search path for target StageTwo because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:16 (add_executable):
+  Cannot generate a safe runtime search path for target StageLTwo because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:19 (add_executable):
+  Cannot generate a safe runtime search path for target TestMed because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:22 (add_executable):
+  Cannot generate a safe runtime search path for target Albation because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at app/CMakeLists.txt:25 (add_executable):
+  Cannot generate a safe runtime search path for target SGM_post because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/yzx/CLionProjects/Stereo_Matching/Optical_Huber_L2/cmake-build-debug
