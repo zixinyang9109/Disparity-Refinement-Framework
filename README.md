@@ -1,5 +1,6 @@
 # Disparity Refinement Framework for Learning-based Stereo Matching Methods in Cross-domain Setting for Laparoscopic Image
 
+[plot](./Disparity_refinement.png)
 
 ## Dataset
 Download the processed [SERV-CT dataset](https://drive.google.com/file/d/1sE4nEp5NR5B4uBL_8fymaYxGJo1gKi3F/view?usp=sharing)
